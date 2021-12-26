@@ -17,7 +17,7 @@ function Header() {
             src="http://links.papareact.com/3pi"
           />
         </div>
-        <div className="text-left lg:text-center col-span-4 ">
+        <div className="text-left lg:text-center col-span-6 ">
           {/* Avatar  */}
           <div className="relative h-48 w-48 lg:mx-auto border-pink-500 border-8 rounded-full">
             <Avatar logoutOnPress={true} />
