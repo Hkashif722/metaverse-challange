@@ -20,7 +20,7 @@ function Header() {
         <div className="text-left lg:text-center col-span-4 ">
           {/* Avatar  */}
           <div className="relative h-48 w-48 lg:mx-auto border-pink-500 border-8 rounded-full">
-            <Avatar />
+            <Avatar logoutOnPress={true} />
           </div>
           {/* Welcome Message  */}
           <h1 className=" text-3xl">Welcome to meta-verse</h1>

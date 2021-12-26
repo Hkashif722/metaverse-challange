@@ -10,7 +10,7 @@ function Avatar({ username, logoutOnPress }) {
         username || user.get("username")
       }.svg`}
       layout="fill"
-      onClick={() => logoutOnPress && logout}
+      onClick={() => logoutOnPress && logout()}
     />
   );
 }
